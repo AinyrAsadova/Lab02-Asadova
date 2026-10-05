@@ -117,15 +117,29 @@
 // Console.WriteLine($"Любимая буква: {favoriteLetter}");
 
 
+// Console.WriteLine();
+// Console.WriteLine("Калькулятор ИМТ");
+
+// Console.Write("Введите рост в метрах (например, 1,75): ");
+// double height = double.Parse(Console.ReadLine());
+
+// Console.Write("Введите вес в килограммах (например, 68,5): ");
+// double weight = double.Parse(Console.ReadLine());
+
+// double bmi = weight / (height * height);
+
+// Console.WriteLine($"ИМТ: {bmi:F2}");
+
+
 Console.WriteLine();
-Console.WriteLine("Калькулятор ИМТ");
+Console.WriteLine("Разбор ФИО через char");
 
-Console.Write("Введите рост в метрах (например, 1,75): ");
-double height = double.Parse(Console.ReadLine());
+Console.Write("Введите фамилию: ");
+string surname = Console.ReadLine();
 
-Console.Write("Введите вес в килограммах (например, 68,5): ");
-double weight = double.Parse(Console.ReadLine());
+Console.Write("Введите имя: ");
+string firstNameInput = Console.ReadLine();
 
-double bmi = weight / (height * height);
+char nameInitial = firstNameInput[0];
 
-Console.WriteLine($"ИМТ: {bmi:F2}");
+Console.WriteLine($"{surname} {nameInitial}.");
