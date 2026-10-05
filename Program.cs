@@ -131,15 +131,32 @@
 // Console.WriteLine($"ИМТ: {bmi:F2}");
 
 
+// Console.WriteLine();
+// Console.WriteLine("Разбор ФИО через char");
+
+// Console.Write("Введите фамилию: ");
+// string surname = Console.ReadLine();
+
+// Console.Write("Введите имя: ");
+// string firstNameInput = Console.ReadLine();
+
+// char nameInitial = firstNameInput[0];
+
+// Console.WriteLine($"{surname} {nameInitial}.");
+
+
 Console.WriteLine();
-Console.WriteLine("Разбор ФИО через char");
+Console.WriteLine("TryParse на трёх типах");
 
-Console.Write("Введите фамилию: ");
-string surname = Console.ReadLine();
+Console.Write("Введите целое число: ");
+bool intOk = int.TryParse(Console.ReadLine(), out int intValue);
+Console.WriteLine($"int: удалось = {intOk}, значение = {intValue}");
 
-Console.Write("Введите имя: ");
-string firstNameInput = Console.ReadLine();
+Console.Write("Введите дробное число (например, 3,14): ");
+bool doubleOk = double.TryParse(Console.ReadLine(), out double doubleValue);
+Console.WriteLine($"double: удалось = {doubleOk}, значение = {doubleValue}");
 
-char nameInitial = firstNameInput[0];
 
-Console.WriteLine($"{surname} {nameInitial}.");
+Console.Write("Введите дату: ");
+bool dateOk = DateTime.TryParse(Console.ReadLine(), out DateTime dateValue);
+Console.WriteLine($"DateTime: удалось = {dateOk}, значение = {dateValue}");
