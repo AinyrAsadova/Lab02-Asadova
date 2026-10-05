@@ -12,3 +12,4 @@ C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\refint\Lab02-Asadova.dl
 C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.pdb
 C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.genruntimeconfig.cache
 C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\ref\Lab02-Asadova.dll
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.sourcelink.json
