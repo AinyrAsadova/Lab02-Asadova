@@ -40,11 +40,22 @@
 // Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
 
 
+// Console.WriteLine();
+// Console.WriteLine("var");
+
+// var studentAge = 18;      
+// var gpa = 4.75;           
+// var fullName = "Асадова А.";  
+
+// Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
+
 Console.WriteLine();
-Console.WriteLine("var");
+Console.WriteLine("Ввод текста");
 
-var studentAge = 18;      
-var gpa = 4.75;           
-var fullName = "Асадова А.";  
+Console.Write("Введите ваше имя: ");
+string enteredName = Console.ReadLine();
 
-Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
+Console.Write("Введите название вашей группы: ");
+string enteredGroup = Console.ReadLine();
+
+Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
