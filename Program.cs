@@ -87,31 +87,45 @@
 // Console.WriteLine($"Значение переменной booksCount: {booksCount}");
 
 
+// Console.WriteLine();
+
+// Console.Write("Введите имя и фамилию: ");
+// string studentName = Console.ReadLine();
+
+// Console.Write("Введите группу: ");
+// string studentGroup = Console.ReadLine();
+
+// Console.Write("Введите год рождения: ");
+// int birthYear = int.Parse(Console.ReadLine());
+
+// Console.Write("Введите средний балл: ");
+// double studentGpa = double.Parse(Console.ReadLine());
+
+// Console.Write("Введите любимую букву: ");
+// char favoriteLetter = Console.ReadLine()[0];
+
+// int ageIn2030 = 2030 - birthYear;
+
+// bool isGoodGpa = studentGpa >= 4.0;
+
+// Console.WriteLine();
+// Console.WriteLine("    Анкета");
+// Console.WriteLine($"{studentName}, группа {studentGroup}");
+// Console.WriteLine($"Год рождения: {birthYear} (в 2030 будет {ageIn2030} лет)");
+// Console.WriteLine($"Средний балл: {studentGpa}");
+// Console.WriteLine($"Балл >= 4.0: {isGoodGpa}");
+// Console.WriteLine($"Любимая буква: {favoriteLetter}");
+
+
 Console.WriteLine();
+Console.WriteLine("Калькулятор ИМТ");
 
-Console.Write("Введите имя и фамилию: ");
-string studentName = Console.ReadLine();
+Console.Write("Введите рост в метрах (например, 1,75): ");
+double height = double.Parse(Console.ReadLine());
 
-Console.Write("Введите группу: ");
-string studentGroup = Console.ReadLine();
+Console.Write("Введите вес в килограммах (например, 68,5): ");
+double weight = double.Parse(Console.ReadLine());
 
-Console.Write("Введите год рождения: ");
-int birthYear = int.Parse(Console.ReadLine());
+double bmi = weight / (height * height);
 
-Console.Write("Введите средний балл: ");
-double studentGpa = double.Parse(Console.ReadLine());
-
-Console.Write("Введите любимую букву: ");
-char favoriteLetter = Console.ReadLine()[0];
-
-int ageIn2030 = 2030 - birthYear;
-
-bool isGoodGpa = studentGpa >= 4.0;
-
-Console.WriteLine();
-Console.WriteLine("    Анкета");
-Console.WriteLine($"{studentName}, группа {studentGroup}");
-Console.WriteLine($"Год рождения: {birthYear} (в 2030 будет {ageIn2030} лет)");
-Console.WriteLine($"Средний балл: {studentGpa}");
-Console.WriteLine($"Балл >= 4.0: {isGoodGpa}");
-Console.WriteLine($"Любимая буква: {favoriteLetter}");
+Console.WriteLine($"ИМТ: {bmi:F2}");
