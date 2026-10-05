@@ -1,0 +1,14 @@
+C:\Users\elvix\Documents\Lab02-Asadova\bin\Debug\net10.0\Lab02-Asadova.exe
+C:\Users\elvix\Documents\Lab02-Asadova\bin\Debug\net10.0\Lab02-Asadova.deps.json
+C:\Users\elvix\Documents\Lab02-Asadova\bin\Debug\net10.0\Lab02-Asadova.runtimeconfig.json
+C:\Users\elvix\Documents\Lab02-Asadova\bin\Debug\net10.0\Lab02-Asadova.dll
+C:\Users\elvix\Documents\Lab02-Asadova\bin\Debug\net10.0\Lab02-Asadova.pdb
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.AssemblyInfoInputs.cache
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.AssemblyInfo.cs
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.csproj.CoreCompileInputs.cache
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.dll
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\refint\Lab02-Asadova.dll
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.pdb
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\Lab02-Asadova.genruntimeconfig.cache
+C:\Users\elvix\Documents\Lab02-Asadova\obj\Debug\net10.0\ref\Lab02-Asadova.dll
